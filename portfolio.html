@@ -20,14 +20,28 @@
             <nav class="nav">
                 <a href="./index.html" class="logo"><span class="logo-part">Web</span>Studio</a>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
-                    <li class="nav-item"><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link current">Студия</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="auth-list">
-                <li class="auth-item"><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
-                <li class="auth-item"><a href="tel:+380961111111" class="auth-link">+38 096 111 11 11</a></li>
+                <li class="auth-item">
+                    <a href="mailto:info@devstudio.com" class="auth-link">
+                        <svg class="auth-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="auth-item">
+                    <a href="tel:+380961111111" class="auth-link">
+                        <svg class="auth-icon" width="16" height="12">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -151,19 +165,59 @@
     <!--Футер-->
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo-footer logo"><span class="logo-part">Web</span>Studio</a>
-            <address class="adress">
-                <p class="adress-coordinates">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="footer-list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
+            <div class="footer-block">
+                <div>
+                    <a href="./index.html" class="logo-footer logo"><span class="logo-part">Web</span>Studio</a>
+                    <address class="adress">
+                        <p class="adress-coordinates">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="join">
+                    <h2 class="join-title">присоединяйтесь</h2>
+                    <ul class="join-block">
+                        <li>
+                            <a href="#" class="join-link">
+                                <svg class="join-item" width="20px" height="20px">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="join-link">
+                                <svg class="join-item" width="20px" height="20px">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="join-link">
+                                <svg class="join-item">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="join-link">
+                                <svg class="join-item" width="20px" height="20px">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    
+    
+    
     </footer>
 </body>
 </html>
