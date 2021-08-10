@@ -348,18 +348,12 @@ body {
   color: var(--icon-color);
   justify-content: center;
   align-items: center;
-}
-.social-item {
   fill: currentColor;
-  justify-content: center;
-  align-items: center;
 }
+
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-}
-.social-item:hover,
-.social-item:focus {
   fill: var(--primary-white-color);
 }
 
@@ -401,6 +395,7 @@ body {
   width: 170px;
   height: 92px;
   color: var(--icon-color);
+  fill: currentColor;
   border: 1px solid var(--icon-color);
   box-sizing: border-box;
   border-radius: 4px;
@@ -410,12 +405,6 @@ body {
   border: 1px solid var(--accent-color);
   box-sizing: border-box;
   border-radius: 4px;
-}
-.company-item {
-  fill: currentColor;
-}
-.company-item:hover,
-.company-item:focus {
   fill: var(--accent-color);
 }
 /* Footer */
