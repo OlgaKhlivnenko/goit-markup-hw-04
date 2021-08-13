@@ -592,7 +592,7 @@ body {
 .exmp-item {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
 
   padding: 0;
   height: auto;
